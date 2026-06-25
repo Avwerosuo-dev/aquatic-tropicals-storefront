@@ -39,11 +39,11 @@ function formatPrice(value) {
   if (value === null || value === undefined || value === "") return null;
   const num = Number(value);
   if (Number.isNaN(num)) return String(value);
-  return new Intl.NumberFormat("en-NG", {
-    style: "currency",
-    currency: "NGN",
-    maximumFractionDigits: 0,
-  }).format(num);
+ return new Intl.NumberFormat("en-US", {
+       style: "currency",
+       currency: "USD",
+       maximumFractionDigits: 2,
+     }).format(num);
 }
 
 function isVideoAttachment(att) {
