@@ -353,7 +353,7 @@ export default function Storefront() {
               lineHeight: 1.1,
             }}
           >
-            Tanganyikan Cichlids
+            Aquatic Tropicals
           </h1>
           <p style={{ fontSize: 14, color: "#A9BDB6", margin: "8px 0 0", maxWidth: 480 }}>
             Browse what's in the tanks right now. Tap any fish to order on WhatsApp.
