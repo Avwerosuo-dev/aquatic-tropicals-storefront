@@ -1,4 +1,4 @@
-# Tanganyikan Cichlids - storefront
+# Stock List - storefront
 
 A live product catalog that reads directly from your Airtable base and lets
 customers order on WhatsApp.
